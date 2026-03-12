@@ -16,5 +16,12 @@ public class Array01 {
         for (int i = 0; i < bts.length; i++) {
             System.out.println(bts[i]);
         }
+
+        // 선입 선출(FIFO), 반대 LIFO(프링글스)
+        System.out.println("향상된 for 구문");
+        // for(타입 단수이름 : 복수이름){
+        for(String item : bts){
+            System.out.println(item);
+        }
     }
 }

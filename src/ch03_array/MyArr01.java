@@ -19,6 +19,11 @@ public class MyArr01 {
             System.out.println(arr[i]);
         }
 
+        System.out.println("향상된 for 구문");
+        for(int item : arr){
+            System.out.println(item);
+        }
+
         // 방법02 : 초기화 기법
         int[] brr = {15, 30, 22};
 
